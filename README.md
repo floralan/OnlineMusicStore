@@ -5,7 +5,7 @@ search products, add to cart and check out, another for seller(admin) who can ma
 as well as manage the shopper's orders.<p>
 This is a course project for COEN 278 Advanced Web Programming 
 
-**Front-end**: HTML, CSS, JavaScript <p>
+**Front-end**: HTML, CSS, JavaScript, AJAX <p>
 **Back-end**: ruby, SQLite
 
 ## Views for Shopper
