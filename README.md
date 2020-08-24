@@ -1,4 +1,5 @@
-#Online Music Store Application
+# Online Music Store Application
+
 This is a online music store build with Ruby on Rails. There are mainly two views, one for shopper who can
 search products, add to cart and check out, another for seller(admin) who can manage the products (CRUD)
 as well as manage the shopper's orders.
