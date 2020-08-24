@@ -1,0 +1,22 @@
+
+<% if @search_message %>
+  <p id="notice"><%= @search_message %></p>
+<% end %>
+
+<div class="container">
+  <h1>Product Category</h1>
+
+  <% @products.each do |product| %>
+    <div class="entry">
+      <%= image_tag(asset_path(product.image)) %>
+      <h3><%= product.name %></h3>
+      <p><%= product.description %></p><br/>
+
+      <div class="price_line">
+        <span class="price"><%= number_to_currency(product.price) %></span>
+        <br/><br/>
+      </div>
+      <%= button_to 'Add to Cart', lineitems_path(product_id: product), class: 'add_to_cart btn btn-success', remote:true %>
+    </div>
+  <% end %>
+</div>
